@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applying | Form Fillup</title>
+    <link rel="stylesheet" href="css/apply.css">
+    <link rel="stylesheet" media="screen and (max-width:740px)" href="css/responsive/apply_phone.css">
+    <link rel="stylesheet" media="screen and (max-width:1280px) and (min-width: 741px)" href="css/responsive/apply_tab.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="image/logo2.png" alt="Soul technologies">
+
+        </div>
+        <div class="item">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="jobs.html">Career  </a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="enhancement.html">Enhancement</a></li>
+            </ul>
+        </div>
+        <div class="item2">
+            <a href="mailto:104344333@student.swin.edu.au">Email Us</a>
+            <a href="tel:">Call Us</a>
+        </div>
+    </nav>
+    <div id="home">  
+    <section class="upper">
+        <h1 class="primary">Form</h1>
+        <form id="data-form">
+        <div class="inner">
+            <div class="data">
+                <label for="refn" class="required">Job Reference Number  </label>
+                <input type="text" id="refn" required>
+
+                <label for="fname" class="required">First Name </label>
+                <input type="text" id="fname" maxlength="20" required>
+
+                <label for="lname" class="required">Last Name</label>   
+                <input type="text" id="lname" 
+                maxlength="20" required>
+
+                <label for="dob" class="required">Date Of Birth </label>                
+                <input type="date" id="dob" required min="1930-01-02" max="2023-12-31">
+
+                <label for="gender1" class="required">Gender</label>
+                <div class="choice">
+                    <input type="radio"  id="gender1" name="gender" value="male" required="required">
+                    <label for="gender1" >Male</label>
+                    <input type="radio"  id="gender2" name="gender" value="female">
+                    <label for="gender2" >Female</label>
+                    <input type="radio"  id="gender3" name="gender" value="other">
+                    <label for="gender3" >Other</label>
+                </div>
+                <label for="address" class="required">Street</label>
+                <input type="text" id="address" required maxlength="40">
+
+                <label for="subtown" class="required">SubTown</label>
+                <input type="text" id="subtown" required="required" maxlength="40">
+
+                <label for="Postal" class="required">Postcode</label>
+                <input type="text"   id="Postal" required  maxlength="4">
+
+                <label for="state" class="required">State</label>
+                <select  id="state" required  size="1">
+                    <option value="" disabled selected>select</option>
+                    <option value="VIC" >VIC</option>
+                    <option value="NSW">NSW</option>
+                    <option value="QLD">QLD</option>
+                    <option value="NT">NT</option>
+                    <option value="WA">WA</option>
+                    <option value="SA">SA</option>
+                    <option value="TAS">TAS</option>
+                    <option value="ACT">ACT</option>
+                </select>
+                <label for="email" class="required">Email</label>
+                <input type="email" id="email" required >
+
+                <label for="phno" class="required">Contact</label>
+                <input type="text" id="phno" required minlength="8" maxlength="12">
+
+                <label class="required"  >Skills</label>
+                <div class="option-checkbox"> 
+                    <input type="checkbox" id="option1" name="option1" value="HTML" checked
+                     required>
+                    <label for="option1">HTML</label>
+                    <input type="checkbox" id="option2" name="option2" value="CSS">
+                    <label for="option2">CSS</label>
+                    <input type="checkbox" id="option3" name="option3" value="JavaScript">
+                    <label for="option3">JavaScript</label>
+                    <input type="checkbox" id="option4" name="option4" value="Python">
+                    <label for="option4">Python</label>
+                    <input type="checkbox" id="option5" name="option5" value="others">
+                    <label for="option5">others</label>
+                </div>
+
+
+                <label for="other" class="others">Others</label>
+                <textarea class="others"  id="other" ></textarea>
+            </div>
+        </div>
+                <input type="submit" class="subbtn" id="data-form-input" value="Apply">
+        </form>
+    </section>
+</div>
+    
+ 
+    <footer class="foot">
+        <div class="foot-upper">
+            <div class="col">
+                <ul>
+                    <li class="list-head">Solutions</li>
+                    <li>AI Projects</li>
+                    <li>ML Monitoring</li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li class="list-head">Use Cases</li>
+                    <li>Network Security</li>
+                    <li>Cloud Computing</li>
+                    <li>App Building</li>
+                    <li>Web Hosting</li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li class="list-head">Resources</li>
+                    <li>Resource Hub</li>
+                    <li>Blog</li>
+                    <li>Learn More</li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li class="list-head">Company</li>
+                    <li>About Us</li>
+                    <li>Career</li>
+                    <li>Email Us</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="foot-lower">
+            <h3>Copyright | Development</h3>
+            <div class="icons">
+                <img src="image/git.png" alt="github" id="img1">
+                <img src="image/linkedin.png" alt="linkedin" id="img2">
+            </div>
+
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>

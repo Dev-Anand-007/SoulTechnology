@@ -1,0 +1,93 @@
+
+#navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1270px;
+    height: 150px;
+}
+#navbar ul {
+    display: flex;
+    align-items: center;
+    margin:0px 100px;
+}
+#navbar ul li {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 22px;
+    padding:0px 5px;  
+}
+.item{
+    height: 10px;
+}
+.item2 {
+    display: none;
+
+}
+
+.upper::before{
+    width: 1270px;
+    height: 1010px;
+    
+}
+.upper{
+   
+    margin:50px 284px;
+ 
+    justify-content: center;
+    align-items: center;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(29deg,#26b5eb 0,#1cafbc 49%,#1ab174 94%);
+    width: 1270px;
+
+}
+.foot-upper{
+    display: flex;
+    border-bottom: 1.5px black solid;
+    
+}
+.col{
+    display: flex;
+
+    margin:10px 100px;
+    width: 200px;
+    
+}
+.foot-upper ul li{
+    cursor: pointer;
+    list-style: none;
+    margin:25px 0px;
+    padding:5px;
+}
+.foot-upper .list-head{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.foot-lower{
+    display: flex;
+
+}
+.foot-lower h3{
+    width: 1200px;
+    text-align: justify;
+    font-size: 1em;
+    margin: 12px 0px;
+    align-content: center;
+}
+.icons img{
+    cursor: pointer;
+    height: 30px;
+    margin: 2px 50px;
+    
+}
+#img1{
+    height: 35px;
+}
+.icons{
+    display: flex;
+}

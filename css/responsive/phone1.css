@@ -1,0 +1,103 @@
+
+#service::before{
+   display: none;
+}
+#logo img{
+    width:70px;
+    background-color: yellow;
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 740px;
+    height: 150px;
+}
+#navbar ul {
+    display: flex;
+    align-items: center;
+    margin:0px 100px;
+}
+#navbar ul li {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 22px;
+    padding:0px 5px;  
+}
+.item{
+    height: 10px;
+}
+.item2 a{
+   display: none;
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 800px;
+}
+#home .intro{
+font-family: 'Baloo Bhai 2', cursive;
+
+
+    color: blanchedalmond;
+    margin: 3px 47px;
+    font-size: 1.1rem;
+}
+
+
+#home::before{
+    content: '';
+    background: url('../../image/bg1.jpg') center center/cover;
+    position: absolute;
+    width: 740px;
+    height: 1031px;
+    top:0;
+    left:0;
+    z-index: -1;
+    opacity: 0.99;
+}
+#cat{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    overflow: scroll;
+
+}
+.serv{
+    
+    font-size: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.foot{
+    display: flex;
+    width: 740px;
+}
+.foot-upper{
+    display: flex;
+
+    justify-content: center;
+}
+.foot-upper ul li{
+    font-size: 0.8rem;
+}
+.col{
+    display: flex;
+    margin: 5px 5px;
+    justify-content: center;
+}
+.foot-lower{
+    display: flex;
+}
+.foot-lower h3{
+    width: 740px;
+}
+.icons{
+    display: flex;
+}

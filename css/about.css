@@ -1,0 +1,276 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* Navigation Menu  */
+
+#logo img{
+    width:70px;
+    background-color: yellow;
+    margin: 9px;
+    padding: 0px;
+}
+#logo img:hover{
+    cursor: pointer;
+}
+.item{
+    height:100px;
+}
+.item2{
+    display: flex;
+    align-content: space-between;
+}
+#navbar{
+    display:flex;
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
+   position: sticky;
+   top:0;
+
+}
+#navbar ul {
+    display: flex;
+    align-items: center;
+    margin:0px 200px;
+}
+#navbar ul li {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 22px;
+    padding:0px 13px;  
+}
+#navbar ul li a{
+    font-family: 'Signika Negative', sans-serif;
+    color:white;
+    text-decoration: none;
+    padding:9px;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+}
+
+.item2 a {
+    text-decoration: none;
+    color:inherit;
+     font-family: 'Signika Negative', sans-serif;
+    font-size: 15px;
+    display: flex;
+    position:relative;
+    left: 100px;
+    top: 7px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 4px;
+    border-radius: 20px;
+    background-color:tomato;
+}
+
+.item2 a:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+#navbar ul li a:hover{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+#home{
+    background-image: linear-gradient( 135deg, #F97794 10%, #623AA2 100%);
+    width: 100%;
+    height: 100%;
+    top:0px;
+    margin: 0px;
+    
+}
+header{
+    display: flex;
+    border: white solid;
+    margin:0px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 50px;
+    font-size: 2rem;
+    color: white;
+}
+.h-primary {
+    
+    font-family: 'Noto Sans Lao', sans-serif;
+    
+}
+.profile{
+    display: flex;
+    
+}
+.id{
+    display: flex;
+    flex-direction: column;   
+    background-color: whitesmoke;
+    border-radius: 30px;
+    margin: 20px 20px;
+    width: 550px;
+    height: 450px;
+
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image img{
+
+    border-bottom: red 2px solid;
+    padding: 90px;
+    height: 135px;
+    width: 120px;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    font-size:1rem;
+    margin:10px 20px;
+}
+.data dl dt{
+    margin: 4px 0px;
+    font-weight: bold;
+
+}
+.data dl dd{
+    margin:0px 100px;
+}
+
+
+/* General .information */
+.information{
+    background-color: whitesmoke;
+    border-radius: 30px;
+    width: 100%;
+    height: 750px;
+    padding:10px;
+    margin:20px 20px;
+    border: solid 2px white;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid red  ;
+
+    margin: 40px;
+}
+.dataset{
+    padding: 20px;
+}
+
+.dataset dl dt{
+    margin: 0px 0px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+.dataset dl dd{
+    margin:5px 200px;
+    font-size: 1rem;
+}
+.dataset dl dd table th,tr,td{
+    padding: 5px;
+    border: #623AA2 2px solid;
+}
+.dataset a{
+    display: block;
+    text-align: center;
+    margin:30px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F97794;
+    cursor: pointer;
+    font-weight: bold;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    font-size: 0.9rem;
+}
+.dataset a{
+    color: inherit;
+    
+}
+.dataset a:hover{
+    font-weight: bold;
+    background-color:palegreen;
+    
+    
+}
+
+.time-table-value:hover{
+    color:white;
+    background-color: #623AA2;
+
+}
+.time-table-value:hover .info{
+    color:white;
+    background-color: #623AA2;
+    display: block;
+
+}
+
+
+/* Footer */
+.foot{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(29deg,#26b5eb 0,#1cafbc 49%,#1ab174 94%);
+
+}
+.foot-upper{
+    display: flex;
+    border-bottom: 1.5px black solid;
+    
+}
+.col{display: flex;
+
+    margin:10px 100px;
+    width: 200px;
+    
+}
+.foot-upper ul li{
+    cursor: pointer;
+    list-style: none;
+    margin:25px 0px;
+    padding:5px;
+}
+.foot-upper .list-head{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.foot-lower{
+    display: flex;
+
+}
+.foot-lower h3{
+    width: 1200px;
+    text-align: justify;
+    font-size: 1em;
+    margin: 12px 0px;
+    align-content: center;
+}
+.icons img{
+    cursor: pointer;
+    height: 30px;
+    margin: 2px 50px;
+    
+}
+#img1{
+    height: 35px;
+}

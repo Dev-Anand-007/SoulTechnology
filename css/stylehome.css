@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Navigation Menu  */
+#logo{
+    display: flex;
+    flex-direction: column;
+    
+}
+#logo img{
+    width:70px;
+    background-color: yellow;
+    margin: 9px;
+    padding: 0px;
+}
+#logo img:hover{
+    cursor: pointer;
+}
+
+.item{
+    height:100px;
+}
+.item2{
+    display: flex;
+    align-content: space-between;
+}
+#navbar{
+    display:flex;
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);
+   position: sticky;
+   top:0;
+
+}
+#navbar ul {
+    display: flex;
+    align-items: center;
+    margin:0px 200px;
+}
+#navbar ul li {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 22px;
+    padding:0px 13px;  
+}
+#navbar ul li a{
+    font-family: 'Signika Negative', sans-serif;
+    color:white;
+    text-decoration: none;
+    padding:9px;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+}
+
+.item2 a {
+    text-decoration: none;
+    color:inherit;
+     font-family: 'Signika Negative', sans-serif;
+    font-size: 15px;
+    display: flex;
+    position:relative;
+    left: 100px;
+    top: 7px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 4px;
+    border-radius: 20px;
+    background-color:tomato;
+}
+
+.item2 a:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+#navbar ul li a:hover{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 300px;
+}
+#home .intro{
+font-family: 'Baloo Bhai 2', cursive;
+
+
+    color: blanchedalmond;
+    margin: 3px 47px;
+    font-size: 1.1rem;
+}
+
+
+#home::before{
+    content: '';
+    background: url('../image/bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 522px;
+    top:0;
+    left:0;
+    z-index: -1;
+    opacity: 0.99;
+}
+/* services */
+#service{
+    
+font-family: 'Tilt Neon', cursive;
+
+    display: flex;
+    flex-direction: column;
+    margin:150px 47px;
+}
+#service::before{
+    content: '';
+    background: url('../image/bg.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 90em;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.7;
+    box-shadow: 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.serv{
+
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#cat{
+    display: flex;
+    padding: 20px;
+    height: 300px;
+    justify-content: space-evenly;
+    
+}
+
+.category a{
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    flex:auto;
+    flex-direction: column;
+    margin: 18px;
+    border: red 2px solid;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: tan;
+    padding: 4px;
+    border-radius: 40px;
+    height: 278px;
+    text-decoration: none;
+}
+.image img{
+    height: 100px;
+    width: 100px;
+}
+.category a:hover{
+    color: white;
+    background-color: tomato;
+    cursor:pointer;
+}
+
+
+
+/* Utility class */
+.h-primary{
+    margin:10px;
+    padding:20px 34px;
+    font-size: 5rem;
+    color:yellow;
+    
+}
+.information{
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    width: 20em;
+    padding: 20px;
+}
+/* Footer */
+.foot{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(29deg,#26b5eb 0,#1cafbc 49%,#1ab174 94%);
+
+}
+.foot-upper{
+    display: flex;
+    border-bottom: 1.5px black solid;
+    
+}
+.col{display: flex;
+
+    margin:10px 100px;
+    width: 200px;
+    
+}
+.foot-upper ul li{
+    cursor: pointer;
+    list-style: none;
+    margin:25px 0px;
+    padding:5px;
+}
+.foot-upper .list-head{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.foot-lower{
+    display: flex;
+
+}
+.foot-lower h3{
+    width: 1200px;
+    text-align: justify;
+    font-size: 1em;
+    margin: 12px 0px;
+    align-content: center;
+}
+.icons img{
+    cursor: pointer;
+    height: 30px;
+    margin: 2px 50px;
+    
+}
+#img1{
+    height: 35px;
+}
