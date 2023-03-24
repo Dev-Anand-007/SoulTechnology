@@ -2,12 +2,6 @@
 #service::before{
    display: none;
 }
-#logo img{
-    width:70px;
-    background-color: yellow;
-    margin: 0px;
-    padding: 0px;
-}
 #navbar{
     display: flex;
     flex-direction: column;
@@ -31,9 +25,9 @@
     height: 10px;
 }
 .item2 a{
-   display: none;
-}
+    display: none;
 
+}
 
 #home{
     display: flex;

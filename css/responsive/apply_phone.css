@@ -28,27 +28,67 @@
 
 #home{
     width: 730px;
+    display: flex;
+    height: 1200px;
+    justify-content: space-around;
 }
 
 .upper{    
     display: block;
-    margin:30px;
-    width: 550px;
+    margin:25px;
+    width: 670px;
+    height: 1120px;
 }
 .inner{
-    width: 530px;
+    width: 640px;
+    height: 980px;
 }
 
 .data {
-    display: grid;
-    grid-template-columns: 147px 298px;
+    display: flex;
+    flex-direction: column;
     margin: 18px 35px;
     grid-row-gap: 4px;
-    font-size: 1.1rem;
+    font-size: 3em;
+    overflow:scroll;
 }
-.option-checkbox{
-    width: 100px;
-    height: 100px;
+.data input[type=text],input[type='email']{
+    font-size: 0.8em;
+}
+.data input[type='date']{
+    padding: 26px;
+    font-size: 0.8em;
+}
+.data input[type='radio']{
+
+        border: 0px;
+        width: 23px;
+        height: 2em;
+    
+}
+.data #state{
+
+    border: 47px;
+    width: 96%;
+    font-size: 0.8em;
+}
+.option{
+    width: 260px;
+    height: 25px;
+}
+#other{
+    
+        resize: none;
+        padding-bottom: 60px;
+        height: 100px;
+        font-size: 0.7em;
+    
+    
+}
+.subbtn{
+    width: 150px;
+    height: 45px;
+    font-size: 1.8em;
 }
 
 .foot{
