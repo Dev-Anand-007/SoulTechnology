@@ -89,30 +89,24 @@
 }
 
 
-/* Content Section  */
-/* .role::before{
-    content:'';
-    background-color: darkred;   
-    position:absolute;
+
+.jobs{
+    
     width: 100%;
-    height: 100%;
-    top:0;
-    left:0;
-    z-index: -1;
-    opacity: .6;
 
-} */
-
+}
 .side{
     display: inline;
     float: right;
 }
 .role{
+    
     margin: 10px;
     padding:40px;
     border:3px solid white;
     background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);
     border-radius: 20px;
+    width: 950px;
 
 font-family: 'Baloo Tamma 2', cursive;
 
@@ -125,6 +119,7 @@ font-family: 'Baloo Tamma 2', cursive;
 
 }
 #role1,#role2{
+    
     padding: 40px;
     margin:34px 11px;
     background-color: bisque;
@@ -139,6 +134,7 @@ font-family: 'Baloo Tamma 2', cursive;
     padding:7px;
     font-size: 1.1rem;
 }
+
 
 
 /* see more */
@@ -233,6 +229,29 @@ label{
 .apply a:hover{
     color:black;
     background-color: tomato;
+
+}
+/* Aside Feature */
+#home{
+    display: flex;
+}
+.thought{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 430px;
+    padding: 10px;
+    justify-content: space-between;
+    
+    
+}
+.writing{
+    font-style: italic;
+font-family: 'Tilt Neon', cursive;
+
+    border-left: red 2px solid;
+    margin:100px 0px;
+    padding:20px;
 
 }
 /* Footer */

@@ -24,6 +24,12 @@
     display: none;
 
 }
+#home{
+    width:717px;
+}
+.thought{
+    display: none;
+}
 .role{
     width: 640px;
 }
